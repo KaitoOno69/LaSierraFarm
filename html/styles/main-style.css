@@ -1,0 +1,296 @@
+body {
+    font-family: Calibri, Helvetica, sans-serif;
+    background: linear-gradient(76deg, rgb(172, 29, 191) 0%, rgba(25, 118, 210, 1) 19%, rgba(187, 222, 251, 1) 42%, rgb(213, 88, 222) 75%, rgba(255, 255, 255, 1) 100%);
+    background-attachment: fixed;
+    border-radius: 14px 14px 14px 14px;
+}
+
+.wrapper {
+    background-color: #fcfcfc;
+    max-width: 80%;
+    min-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 5px 5px 3px 0px rgba(152, 45, 45, 0.17);
+    border-radius: 23px 20px 14px 14px;
+}
+
+header {
+    background-image: url(../images/47423201535298.jpg);
+    background-repeat: no-repeat;
+    height: 72px;
+    background-size: cover;
+    background-color: #06226c;
+    color: #FFFFFF;
+    border-radius: 20px 20px 0px 0px;
+
+}
+
+header h1 {
+    padding-top: 0.5em;
+    text-align: center;
+}
+
+nav {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    padding: 0.5em 2em 0.5em 2em;
+    display: inline-block;
+}
+
+nav a:hover {
+    border-radius: 14px 14px 14px 14px;
+    transition: 0.5s;
+    color: #FFFFFF;
+    font-weight: bold;
+    background-color: #0a82c3;
+}
+
+
+.homehero {
+    height: 300px;
+    background-image: url(../images/294665989_504628571436229_5776156498879133694_n.jpg);
+    background-size: cover;
+    background-position: 0 40%;
+    background-repeat: no-repeat;
+}
+
+main {
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+footer {
+    text-align: center;
+    padding: 0.5em 2em 0.5em 2em;
+}
+
+/* Cottage page here*/
+.listing {
+    padding: 0.5em 2em 0.5em 2em;
+    background-color: #f3f3f3;
+}
+
+.card {
+    border-radius: 14px 0px 14px 0px;
+    display: inline-block;
+    vertical-align: text-top;
+    margin: 0.5em;
+    max-width: 300px;
+    background-color: #f0f0f0;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    max-width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.card img {
+    width: 100%;
+    max-height: 200px;
+    object-fit: cover;
+    object-position: 0% center;
+
+}
+
+.card-title {
+    padding: 10px;
+    font-size: 1.8em;
+    font-weight: 800;
+    background-color: #0a82c3;
+    margin-bottom: 10px;
+
+}
+
+.card-title a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.card-body {
+    padding: 0px 1.3em 1.3em 1.3em;
+    height: 150px;
+    overflow: auto;
+}
+
+.card p {
+    display: inline;
+}
+
+/*  Activities page here */
+.main {
+    padding: 20px;
+}
+
+.activity-listing {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.activity-card {
+    width: 300px;
+    margin-bottom: 20px;
+    border-radius: 14px 0px 14px 0px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    transition: 0.4s;
+    vertical-align: text-top;
+    overflow: hidden;
+
+}
+
+.activity-card:hover {
+    transform: scale(1.05);
+    max-width: 320px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+
+.activity-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.activity-title {
+    padding: 10px;
+    background-color: #0a82c3;
+
+}
+
+.activity-title a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.activity-description {
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    background-color: #f3f3f3;
+    border-radius: 0 0 14px 14px;
+
+    /*Reservation page here*/
+}
+
+.reservation-main h1 {
+    text-align: center;
+}
+
+.reservation-main p {
+    text-align: center;
+    margin-top: 50px
+}
+
+form {
+    max-width: 500px;
+    margin: auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 1px;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="PhoneNo."],
+input[type="date"],
+textarea {
+    width: 100%;
+    padding: 14px;
+    margin-bottom: 5px;
+    border: 1px solid #ccc;
+    border-radius: 14px;
+    background-color: #bbd2f3;
+    transition: 0.4;
+
+}
+
+input[type="submit"] {
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Responsive styles paras tablet*/
+@media only screen and (max-width: 768px) {
+    .wrapper {
+        max-width: 90%;
+    }
+
+    header {
+        height: 70px;
+        /* kanang blue na naay sierra sige rakog kalimot hays!!! */
+    }
+
+    nav {
+        display: block;
+        text-align: center;
+        margin-top: 10px;
+    }
+
+    nav a {
+        display: block;
+        padding: 5px;
+        margin-bottom: 5px;
+    }
+
+    .homehero {
+        height: 150px;
+        
+    }
+
+    .card,
+    .activity-card {
+        width: auto;
+        max-width: auto;
+
+    }
+}
+/* Responsive styles paras selpon*/
+@media only screen and (max-width: 425px) {
+    .wrapper {
+        max-width: 90%;
+        min-width: 90%;
+    }
+
+    header {
+        height: 70px;
+       
+    }
+
+    nav a {
+        padding: 8px;
+    }
+
+    .homehero {
+        height: 100px;
+        
+    }
+
+    .card,
+    .activity-card {
+        width: 100%;
+        max-width: 100%;
+    }
+}
